@@ -1,0 +1,61 @@
+/* .para {
+    background-color: rgba(121, 177, 32, 0.575);
+} */
+:root{
+    --navbar-height:59px;
+}
+
+{
+    margin:0;
+    padding:0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin: 12px 40px;
+}
+
+#logo img {
+    height: 50px;
+    margin: 3px 6px;
+    border-radius: 50px;
+}
+
+#navbar ::before {
+    content: " ";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#navbar{
+    position: relative;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a :hover {
+    color: black;
+    background-color: white;
+    
+
+}
