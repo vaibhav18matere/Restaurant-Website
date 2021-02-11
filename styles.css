@@ -75,8 +75,8 @@
     content: "";
     position: absolute;
     background-image: url('/Images/food.jpg') ;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     z-index: -1;
     opacity: 0.80; 
 }
@@ -94,8 +94,13 @@
      font-size: 2rem;
      padding:12px;
      font-family: Verdana, Tahoma, sans-serif;
-     
 }
+
+.h-secondary{
+    font-size: 2.8rem;
+    padding:10px;
+}
+
 .btn{
     border:2px solid white;
     padding:6px 20px ;
@@ -104,4 +109,22 @@
     background-color: rgba(86, 170, 75, 0.74);
     margin: 15px;
     font-size: 1.5rem;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+#services{
+    margin:30px;
+    display: flex;
+}
+
+#services .box {
+    border:2px solid red;
+}  
+
+#services .box img{
+    height: 130px;
+    display: block;
+    margin: auto;
 }
